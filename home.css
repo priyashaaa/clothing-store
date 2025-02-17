@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcecdf;
+    color: #000000;
+}
+
+/* Header Styling */
+header {
+    background-color: #9e122c;
+    color: #fcecdf;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    margin-left: 10px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #ee6a43;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fcecdf;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f99d90;
+    border-radius: 5px;
+}
+
+/* Section Titles */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Featured Section */
+.featured {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    justify-content: center;  /* Center items horizontally */
+    gap: 20px;  /* Space between items */
+    flex-wrap: wrap;  /* Allow wrapping for smaller screens */
+    margin: 20px;
+}
+
+/* Product Cards */
+.product-card {
+    background-color: #fcecdf;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styling */
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Product Name */
+.product-name {
+    font-size: 18px;
+    color: #4b0082;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Price Styling */
+.price {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #fbcb77;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
